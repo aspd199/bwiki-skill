@@ -90,7 +90,7 @@ cp -r bwiki bwiki-mcp .claude/skills/     # 项目
 
 ## 前提
 
-- `bwiki-mcp` 技能依赖 **`bwiki-mcp-server`**（v1.1.0，31 个工具）。该服务需要 B 站账号会话：先运行 `bwiki-login` 打开官方登录页，完成后会话写入用户配置目录下的 `bwiki-mcp-server/session.json`。
+- `bwiki-mcp` 技能依赖 **[bwiki-mcp-server](https://github.com/aspd199/bwiki-mcp-server)**（BWiki 的 MCP 服务器）。该服务需要 B 站账号会话：先运行 `bwiki-login` 打开官方登录页，完成后会话写入用户配置目录下的 `bwiki-mcp-server/session.json`。
 - `bwiki` 技能只含平台知识，不依赖 MCP，可单独使用；需要执行时按其 §9 直连 Action API。
 
 ## 注意
