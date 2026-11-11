@@ -1,0 +1,15 @@
+# 凭证：BWiki 会话文件（按密码对待）
+session.json
+bwiki-mcp-server/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# 日志与临时文件
+*.log
+*.tmp
